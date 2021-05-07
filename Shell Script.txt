@@ -1,0 +1,28 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides: Record
+# Required-Start: $syslog
+# Required-Stop: $syslog
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1
+# Description: Starts recording of both cameras
+### END INIT INFO
+
+case "$1" in
+    start)
+        #Aktion bei Start
+        echo "Aufnahme Start"
+        python3 /home/pi/Bookshelf/Record.py
+        ;;
+    stop)
+        #Aktion bei Stop
+        echo "Aufnahme Stop"
+        killall python3
+        ;;
+    *)
+        #Default
+        exit 1
+        ;;
+esac
+
+exit 0

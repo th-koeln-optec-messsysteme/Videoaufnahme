@@ -1,0 +1,19 @@
+1. In der Kommandozeile zur Erstellung eines neuen Shell Skrips folgendes eingeben:
+
+	sudo nano /etc/init.d/Name-des-Shell-Skripts  
+
+
+2. Den Inhalt der Shell Skript Datei im Repository eingeben. Dann mit Strg+O speichern und mit Strg-X verlassen.
+
+3. In die Kommandozeile folgendes eingeben:
+
+	sudo chmod 755 /etc/init.d/Name-des-Shell-Skripts
+
+	sudo update-rc.d Name-des-Shell-Skripts defaults
+
+Das im Shell Skript vermerkte Skript wird nun im Autostart ausgeführt!
+
+
+Extra: Um den Autostart rückgängig zu machen wir folgendes in der Kommandozeile eingetragen:
+	
+	sudo update.rc.d Name-des-Shell-Skripts remove
