@@ -1,6 +1,8 @@
 Guide zur Videobearbeitung
-Zur Bearbeitung der Videos wurde Adobe Premiere Pro, Adobe After Effects sowie der Adobe Media Converter verwendet. 
-Außerdem wurde zur Konvertierung der Open Source Videotranscoder "Handbrake" verwendet.
+
+Zur Bearbeitung der Videos wurde Adobe Premiere Pro, Adobe After Effects sowie der Adobe Media Converter verwendet.
+Die Adobe Creative Cloud ist eine kostempflichtige Software und kann bei Adobe.com als Abonnement erworben werden.
+Außerdem wurde zur Konvertierung der Open Source Videotranscoder "Handbrake" verwendet. Alternativ kann auch der Adobe Media Encoder verwendet werden, darauf wird hier aber nicht weiter eingegenagen.
 Link zum Download: https://handbrake.fr/downloads.php
 
 1. Konvertierung
