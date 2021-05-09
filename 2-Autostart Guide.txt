@@ -1,9 +1,12 @@
+Info! - Name-des-Shell-Skripts ist ein Platzhalter. Das Skript kann beliebig bennant werden.
+
+
 1. In der Kommandozeile zur Erstellung eines neuen Shell Skrips folgendes eingeben:
 
 	sudo nano /etc/init.d/Name-des-Shell-Skripts  
 
 
-2. Den Inhalt der Shell Skript Datei im Repository eingeben. Dann mit Strg+O speichern und mit Strg-X verlassen.
+2. Den Inhalt der Shell-Skript.txt Datei im Repository eingeben. Dann mit Strg+O speichern und mit Strg-X verlassen.
 
 3. In die Kommandozeile folgendes eingeben:
 
